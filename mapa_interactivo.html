@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_af4efa068f7edae1ca917a65af851f98 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_af4efa068f7edae1ca917a65af851f98" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_af4efa068f7edae1ca917a65af851f98 = L.map(
+                "map_af4efa068f7edae1ca917a65af851f98",
+                {
+                    center: [-45.9489, -71.6693],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_98b41d66f02ada561746219a9fbd41b4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_98b41d66f02ada561746219a9fbd41b4.addTo(map_af4efa068f7edae1ca917a65af851f98);
+        
+    
+            var marker_62661060ad979e033a3776127d0be161 = L.marker(
+                [-45.9688266, -71.602257],
+                {}
+            ).addTo(map_af4efa068f7edae1ca917a65af851f98);
+        
+    
+            var icon_d3fa6c7106cd1f420e6509877d3a7352 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_62661060ad979e033a3776127d0be161.setIcon(icon_d3fa6c7106cd1f420e6509877d3a7352);
+        
+    
+        var popup_b78581d9c2682897296490c249da266b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0964af47c43df081b80c221fbf9a40a5 = $(`<div id="html_0964af47c43df081b80c221fbf9a40a5" style="width: 100.0%; height: 100.0%;">a esa fuiste</div>`)[0];
+                popup_b78581d9c2682897296490c249da266b.setContent(html_0964af47c43df081b80c221fbf9a40a5);
+            
+        
+
+        marker_62661060ad979e033a3776127d0be161.bindPopup(popup_b78581d9c2682897296490c249da266b)
+        ;
+
+        
+    
+    
+            var marker_a1d0de44651038fa45e66b0313873f7f = L.marker(
+                [-46.0025695, -71.6455539],
+                {}
+            ).addTo(map_af4efa068f7edae1ca917a65af851f98);
+        
+    
+            var icon_073248db708d47e034cc4f4c20ab704f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a1d0de44651038fa45e66b0313873f7f.setIcon(icon_073248db708d47e034cc4f4c20ab704f);
+        
+    
+        var popup_01737c9f0d763d60cd54de7ad5e01933 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95267b5c751e9fdf6433f44ab3976d52 = $(`<div id="html_95267b5c751e9fdf6433f44ab3976d52" style="width: 100.0%; height: 100.0%;">Puesto</div>`)[0];
+                popup_01737c9f0d763d60cd54de7ad5e01933.setContent(html_95267b5c751e9fdf6433f44ab3976d52);
+            
+        
+
+        marker_a1d0de44651038fa45e66b0313873f7f.bindPopup(popup_01737c9f0d763d60cd54de7ad5e01933)
+        ;
+
+        
+    
+    
+            var marker_4e6ce4014081ca19a073dc198f84d19d = L.marker(
+                [-46.031069, -71.6636906],
+                {}
+            ).addTo(map_af4efa068f7edae1ca917a65af851f98);
+        
+    
+            var icon_4e48dff284a4a64187c341e21a0445b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4e6ce4014081ca19a073dc198f84d19d.setIcon(icon_4e48dff284a4a64187c341e21a0445b5);
+        
+    
+        var popup_739b2ba9efd7e268dc2bd58fde2fcff8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d484561fa886be5cdc2b51367b569a9 = $(`<div id="html_4d484561fa886be5cdc2b51367b569a9" style="width: 100.0%; height: 100.0%;">otra Estancia</div>`)[0];
+                popup_739b2ba9efd7e268dc2bd58fde2fcff8.setContent(html_4d484561fa886be5cdc2b51367b569a9);
+            
+        
+
+        marker_4e6ce4014081ca19a073dc198f84d19d.bindPopup(popup_739b2ba9efd7e268dc2bd58fde2fcff8)
+        ;
+
+        
+    
+    
+            var marker_1e0f1ef6f33d2331b28cde620d363f3b = L.marker(
+                [-46.0356628, -71.6560252],
+                {}
+            ).addTo(map_af4efa068f7edae1ca917a65af851f98);
+        
+    
+            var icon_78ef6ac41c4fa3c066b136822b4fbbd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1e0f1ef6f33d2331b28cde620d363f3b.setIcon(icon_78ef6ac41c4fa3c066b136822b4fbbd7);
+        
+    
+        var popup_f0f796bb96056af1c25a211ad78a6d10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec5cf4c0c7bbb45e41b30b7a08deacdb = $(`<div id="html_ec5cf4c0c7bbb45e41b30b7a08deacdb" style="width: 100.0%; height: 100.0%;">Puesto Gendarmeria</div>`)[0];
+                popup_f0f796bb96056af1c25a211ad78a6d10.setContent(html_ec5cf4c0c7bbb45e41b30b7a08deacdb);
+            
+        
+
+        marker_1e0f1ef6f33d2331b28cde620d363f3b.bindPopup(popup_f0f796bb96056af1c25a211ad78a6d10)
+        ;
+
+        
+    
+    
+            var marker_ada8dfae1e0113cf1827ea22983316cb = L.marker(
+                [-46.0553173, -71.685241],
+                {}
+            ).addTo(map_af4efa068f7edae1ca917a65af851f98);
+        
+    
+            var icon_857bc8ca15dc27d83f6231bc47e8ba2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ada8dfae1e0113cf1827ea22983316cb.setIcon(icon_857bc8ca15dc27d83f6231bc47e8ba2a);
+        
+    
+        var popup_99a82f96700e2f30fd1c9976dfd0773f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_935b8852264bac6d273f7a1847bc5e9d = $(`<div id="html_935b8852264bac6d273f7a1847bc5e9d" style="width: 100.0%; height: 100.0%;">Casa?</div>`)[0];
+                popup_99a82f96700e2f30fd1c9976dfd0773f.setContent(html_935b8852264bac6d273f7a1847bc5e9d);
+            
+        
+
+        marker_ada8dfae1e0113cf1827ea22983316cb.bindPopup(popup_99a82f96700e2f30fd1c9976dfd0773f)
+        ;
+
+        
+    
+    
+            var marker_8e61be054baf471d5773513bdf364f4c = L.marker(
+                [-46.0758359, -71.6949247],
+                {}
+            ).addTo(map_af4efa068f7edae1ca917a65af851f98);
+        
+    
+            var icon_f537b30035f211b66fe9980eaa3d0c2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e61be054baf471d5773513bdf364f4c.setIcon(icon_f537b30035f211b66fe9980eaa3d0c2c);
+        
+    
+        var popup_3c208d577c083a404f60909ae0eab5fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_440923a173e6c71136e74be9480aacd4 = $(`<div id="html_440923a173e6c71136e74be9480aacd4" style="width: 100.0%; height: 100.0%;">otra Estancia</div>`)[0];
+                popup_3c208d577c083a404f60909ae0eab5fc.setContent(html_440923a173e6c71136e74be9480aacd4);
+            
+        
+
+        marker_8e61be054baf471d5773513bdf364f4c.bindPopup(popup_3c208d577c083a404f60909ae0eab5fc)
+        ;
+
+        
+    
+    
+            var marker_0e2adb170db412aa94c5656ace6db09e = L.marker(
+                [-46.148349, -71.6655961],
+                {}
+            ).addTo(map_af4efa068f7edae1ca917a65af851f98);
+        
+    
+            var icon_2b5c1c25310ff3de4b5e54ed2e79efd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0e2adb170db412aa94c5656ace6db09e.setIcon(icon_2b5c1c25310ff3de4b5e54ed2e79efd7);
+        
+    
+        var popup_138c9b2b38d00cbf9fb1e1517b0b0fb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eadb6b391f00b403166f6bcdb0889857 = $(`<div id="html_eadb6b391f00b403166f6bcdb0889857" style="width: 100.0%; height: 100.0%;">otra Estancia</div>`)[0];
+                popup_138c9b2b38d00cbf9fb1e1517b0b0fb7.setContent(html_eadb6b391f00b403166f6bcdb0889857);
+            
+        
+
+        marker_0e2adb170db412aa94c5656ace6db09e.bindPopup(popup_138c9b2b38d00cbf9fb1e1517b0b0fb7)
+        ;
+
+        
+    
+    
+            var poly_line_055f02393ce89698e1a874f3593c2cfe = L.polyline(
+                [[-33.4489, -70.6693], [-33.45, -70.66], [-33.452, -70.655], [-33.456, -70.648]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_af4efa068f7edae1ca917a65af851f98);
+        
+</script>
+</html>
